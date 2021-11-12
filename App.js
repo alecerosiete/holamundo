@@ -7,7 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Hola Mundo!</Text>
-      <Text style={styles.title}>Version 1.0.6</Text>
+      <Text style={styles.title}>Version 1.0.7</Text>
       <Text style={styles.title}>{date.toString()}</Text>
       <StatusBar style="auto" />
     </View>
