@@ -3,10 +3,12 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  const date = new Date();
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Hola Mundo!</Text>
-      <Text style={styles.title}>Version 0.0.1!</Text>
+      <Text style={styles.title}>Version 0.0.2!</Text>
+      <Text style={styles.title}>{date.toString()}</Text>
       <StatusBar style="auto" />
     </View>
   );
